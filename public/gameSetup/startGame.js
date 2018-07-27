@@ -64,3 +64,6 @@ console.log(billyBob);
 console.log(billyBob.getCharisma());
 billyBob.setCharisma(.1);
 console.log(billyBob.getCharisma());
+
+let dillWeed = Object.create(billyBob);
+console.log(`${dillWeed.name}'s charisma is ${dillWeed.getCharisma()}`);
